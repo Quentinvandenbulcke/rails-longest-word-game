@@ -13,3 +13,58 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+background-color: #9DB2BF;
+color: #DDE6ED;
+ }
+
+ .container {
+  width: 750px;
+  margin: auto auto;
+  background-color: #526D82;
+  height: 60vh;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #DDE6ED;
+  box-shadow : 0 10px 30px rgba(0,0,0,.1);
+}
+
+#letter {
+  background-color: #27374D;
+  font-size: 35px;
+}
+
+td#letter {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle; /*ne fonctionne pas*/
+  border: 1px solid #DDE6ED;
+  border-radius: 5px;
+}
+
+tr {
+  gap: 12px;
+  display: flex;
+  width: 100%;
+  padding : 0 auto; /* pq auto ne va pas alors que si px = ok */
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+.link_play_again {
+  text-decoration: none;
+  background-color: #27374D ;
+  padding: 20px 15px;
+  display: inline-block;
+  margin-top: 35px;
+  color:#DDE6ED ;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow : 0 10px 30px rgba(0,0,0,.1);
+  border: 1px solid #DDE6ED ;
+}
